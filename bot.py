@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 from aiogram.filters import CommandStart
 
-TOKEN = os.getenv("8195849328:AAE9mgJP3PV1mV9viU-1ELUfuSLZoAJy6lk")
+TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 1435566238 # твой Telegram ID (ЧИСЛО)
 
 bot = Bot(token=TOKEN)
